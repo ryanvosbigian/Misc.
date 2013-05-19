@@ -1,3 +1,5 @@
 #!/usr/bin/env python
 
-print "ps"
+import write
+
+write.replace("file.txt","replace me","replace success")
