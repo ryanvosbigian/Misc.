@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+
+#import o
+
+#o.s("ls -al")
+
+print "ls -al"

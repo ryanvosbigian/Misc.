@@ -1,0 +1,18 @@
+echo "wireless programming interface"
+
+w
+
+echo "initiating action choice and execution interface..."
+
+python set.py
+
+`python akt1.py`
+echo "action 1 done"
+`python akt2.py`
+echo "action 2 done"
+`python akt3.py`
+echo "action 3 done"
+`python akt4.py`
+echo "action 4 done"
+
+echo "program complete"
