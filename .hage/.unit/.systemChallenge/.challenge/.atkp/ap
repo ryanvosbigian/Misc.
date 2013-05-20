@@ -10,7 +10,8 @@ python set.py
 echo "action 1 done"
 `python akt2.py`
 echo "action 2 done"
-python akt3.py > file.txt
+python akt3.py > file.new
+mv file.new file.txt
 echo "action 3 done"
 `python akt4.py`
 echo "action 4 done"
