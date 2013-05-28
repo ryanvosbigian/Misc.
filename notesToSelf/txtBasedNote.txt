@@ -1,0 +1,1 @@
+here is a good import module for text based stuff, curses, http://docs.python.org/2/howto/curses.html
