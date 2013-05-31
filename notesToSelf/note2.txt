@@ -1,0 +1,1 @@
+py: import sys, import tty, tty.setraw(sys.stdin)
