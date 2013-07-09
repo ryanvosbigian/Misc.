@@ -1,0 +1,16 @@
+thing = False
+while True:
+        thing2 = False
+        wait 1
+        | users = w
+        words = users.split()
+        index = 0
+        for word in words:
+                if '192.168.0' in word:
+                        if thing != True:
+                                say <angry 'WARNING-- Wireless Login In Progress'
+                                thing = True
+                        thing2 = True
+        if thing == True and thing2 == False:
+                say <happy 'Wireless Login Ended'
+                thing = False
