@@ -1,0 +1,26 @@
+import curses
+import time
+
+'''
+stdscr = curses.initscr()
+curses.noecho()
+curses.cbreak()
+stdscr.keypad(1)
+time.sleep(2)
+curses.endwin()
+#the above will set things as interactive hex ought to be, then close the curses window. hex can be all in curses (appropriate names), but it doesn't nescessarily have to.
+'''
+
+dog = (1<<32)/(60*60*24*365.25)
+import time
+import random
+import termcolor
+import sys
+for thing in range(1000):
+    time.sleep(float(0.09))
+    for item in str(dog):
+        time.sleep(float(0.04))
+        thing = random.choice(['red','blue','green','yellow','white','grey','cyan','magenta'])
+        sys.stdout.write(termcolor.colored(item,str(thing),attrs=['bold']))
+        sys.stdout.flush()
+    print '         '

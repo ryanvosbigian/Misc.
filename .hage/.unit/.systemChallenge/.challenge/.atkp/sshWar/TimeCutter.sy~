@@ -1,0 +1,17 @@
+thing = False
+while True:
+        thing2 = False
+        wait 9
+        | users = w
+        words = users.split()
+        index = 0
+        for word in words:
+                if '192.168.0' in word:
+                        if thing != True:
+                                thing = True
+                                /w
+                                /sudo service ssh restart
+                                say <angry 'WARNING-- Wireless Login In Progress'
+                        thing2 = True
+        if thing == True and thing2 == False:
+                thing = False
